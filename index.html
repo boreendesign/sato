@@ -3,7 +3,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
   <script src="https://cdn.rawgit.com/boreendesign/sato/master/src/pagination.js"></script>
-  <script src="https://cdn.rawgit.com/boreendesign/sato/master/src/sato-reviews.js"></script>  
+  <script src="https://cdn.rawgit.com/boreendesign/sato/master/src/sato-reviews.js"></script>
   <link href="https://cdn.rawgit.com/boreendesign/sato/master/src/pagination.css" rel="stylesheet" type="text/css">
 
   <script>
@@ -26,19 +26,7 @@
 
   <script>
 
-  ref.on("value", function(snapshot) {
-    $('#pagination-container').pagination({
-        dataSource: snapshot.val().posts,
-        pageSize:3,
-        callback: function(data, pagination) {
-            var html = simpleTemplating(data);
-            $('#data-container').html(html);
-        }
-    })
-     console.log(snapshot.val());
-  }, function (error) {
-     console.log("Error: " + error.code);
-  });
+setPagination(ref);
 
 
   </script>
