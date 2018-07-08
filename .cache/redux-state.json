@@ -1,0 +1,873 @@
+{
+  "nodes": {
+    "0": {
+      "Timestamp": "2018-02-10T19:30:07.670Z",
+      "date": "2018-02-06T00:00:00.000Z",
+      "name": "Stephen Morrissey",
+      "photo": "",
+      "rating": 3,
+      "review": "I thought that the trip was great. I thought that the trip was great. I thought that the trip was great. I thought that the trip was great. I thought that the trip was great. I thought that the trip was great. ",
+      "id": "0",
+      "parent": "root",
+      "children": [],
+      "internal": {
+        "type": "Events",
+        "contentDigest": "91d69faa4a83a213f097cc90012603d6",
+        "owner": "gatsby-source-firebase"
+      }
+    },
+    "1": {
+      "Timestamp": "2018-02-10T20:52:43.008Z",
+      "date": "2018-02-15T00:00:00.000Z",
+      "name": "test",
+      "photo": "",
+      "rating": 4,
+      "review": "this is a test revew",
+      "id": "1",
+      "parent": "root",
+      "children": [],
+      "internal": {
+        "type": "Events",
+        "contentDigest": "7245c0c0288c4caf42c9753a70a4b0c1",
+        "owner": "gatsby-source-firebase"
+      }
+    },
+    "2": {
+      "Timestamp": "2018-04-08T23:58:54.136Z",
+      "date": "2018-04-18T00:00:00.000Z",
+      "name": "Best",
+      "photo": "",
+      "rating": 4,
+      "review": "Really great",
+      "id": "2",
+      "parent": "root",
+      "children": [],
+      "internal": {
+        "type": "Events",
+        "contentDigest": "74794477a81a3da0365c8a525b66eb19",
+        "owner": "gatsby-source-firebase"
+      }
+    },
+    "3": {
+      "Timestamp": "2018-04-09T00:16:09.946Z",
+      "date": "2017-10-10T00:00:00.000Z",
+      "name": "Some Man",
+      "photo": "",
+      "rating": 2,
+      "review": "Was super",
+      "id": "3",
+      "parent": "root",
+      "children": [],
+      "internal": {
+        "type": "Events",
+        "contentDigest": "f0e84ee27b144899bdad42d80ff96ce0",
+        "owner": "gatsby-source-firebase"
+      }
+    },
+    "4": {
+      "Timestamp": "2018-04-10T01:53:44.725Z",
+      "date": "2018-03-01T00:00:00.000Z",
+      "name": "Seppe Bleukx",
+      "photo": "https://drive.google.com/open?id=10oN-dp6CR7yXV7RkzvEERBfyB0wqx33R",
+      "rating": 4,
+      "review": "I had a blast! ",
+      "id": "4",
+      "parent": "root",
+      "children": [],
+      "internal": {
+        "type": "Events",
+        "contentDigest": "5f59b77ed92d1288f8e254c8e239bdeb",
+        "owner": "gatsby-source-firebase"
+      }
+    },
+    "5": {
+      "Timestamp": "2018-04-10T01:57:14.656Z",
+      "date": "0017-02-07T00:00:00.000Z",
+      "name": "vane",
+      "photo": "https://drive.google.com/open?id=1RYkWFMTyzbt2fVbuoEVDc9-KPGWpS4Sx",
+      "rating": 5,
+      "review": "cool",
+      "id": "5",
+      "parent": "root",
+      "children": [],
+      "internal": {
+        "type": "Events",
+        "contentDigest": "dfb538ff19a9c28905db21ef38583f4f",
+        "owner": "gatsby-source-firebase"
+      }
+    },
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/smorrissey/React/gatsby/sato-reviews/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "updatedAt": 1524417455631,
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/smorrissey/React/gatsby/sato-reviews/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "32a5e9daf3b95285f5d336bc43f225f4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5ac2b55f742690a893e0690789cc7efa",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "fab3cc43a442ecff08979394ac901d64",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a89d343775ed88e7afc0e66253ac3403",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c5f2e84bd59b019ca9696e6ae330f08e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "587dc91956b5706b568e4aeb3d337185",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6b394a7b5e410c629e40003ce693ca8d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "93b291ba1e94ac9a74a456739cb64bce",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.7"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5c60d804d89e7bc52588c18fbc97bfd8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-google-analytics": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-google-analytics",
+      "id": "Plugin gatsby-plugin-google-analytics",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "1.0.13",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-",
+        "anonymize": true
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "1.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d69ec75f93ff02f4127f2768f1c93034",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "image-size",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.17.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f6e586917bf8121d4889ec03565b595c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-firebase": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-source-firebase",
+      "id": "Plugin gatsby-source-firebase",
+      "name": "gatsby-source-firebase",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": [],
+        "credential": {
+          "type": "service_account",
+          "project_id": "sato-reviews",
+          "private_key_id": "81ac4d3fbb9c48eea66509147282009318fe090f",
+          "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFF4JUw9oHUYAj\n8VcNx5JHCi78s7hKO7mvKl8udA3/vVD7GlI1xdHPceLRvORpwjaiFyhuiMTlVDRr\nlYclwQRsZuGHHKXNZhK0a88qHj96NN2goPFdYDw8CT9wZOyhU+xnovZNuPR2EEWT\n/iwhODFYCDfMM/PcxXhevkAqIYnXSQC1GYL7OjuXDLGhfXEkk8Vif0oPG0U1+ESf\nEn7eH5F2s01zgdoSfBEN9UtdqpSbjqtiUKi4crFKq9FUw+2rLK3zTtPmgqEEffpn\no9cg3S4wqdiJCGioAInOT71ig2Ss6GGYP3qHX0PYkjKkYzoZh2UosI1o2dZzhLPb\nKz09TWM1AgMBAAECggEAJtpxE3O+jfXHnI5NmoZOtFlyFNf7CwtGGh1wwRAY2GMC\nTVYNgdM6/rmVPMKPhrfGHGMTUeL9abYVVWYXS96GmDYZ3JBNsTWfl1ivcL6gxd8Z\nF7rSihVYGn+6NVZ3/X+1WWLbSkwdSQ8BIGEZYv0YYSHRmhxdxRZamdbIgGW3Liy5\nxbwDE2qQjhfCCfUChqfU2oNSsLxog9HdB9zvr+AV7GNJ2zMW/bJVBpaNE+a+dQ05\n/8QK9mrRX6aJdG2AZcd606+Ke0E/f9WgPC3xOuvhqO/NejhXwfVnrten7ogMhsGO\nJ//dukldMZb2rlenVB28xgs34VmvxrsSYUEaNOUxywKBgQDweWpLM3pxjptjyUui\nMtoVaPpKG+Jkbx+5PsgAy/KsrysF3j6Ynha6g2SInxrLOh6e2DSUZHXH0rf6lEFw\ng4j0rMmJs58K+ucEcUFKvUe43vmkpfoDaHf4ij9W/YCXK1KLdops3VIl4HSKUbUZ\nGjkp44O7LEDAXjn8IwTR6mbIuwKBgQDR0RBslrRJgnynzOYnrra8GsP/YlpKg9gF\ntaKHkO0zytPMuGfcMb3d+nqnXvKoC8EDGQjVolnKAMHQVScin9mHfzRAx+InhIJ1\n9hqhsV2McmJAjFv2N/2aG75j39WsRTeeKcBuvq/O/1XWbSqNyUdWjMbazirpjPKj\nQ4d5Urv8zwKBgCKGO/V5+Y1OHQ8RelNaG6dRQAXdxP4IWjSdR9edcETMjU+1XaVJ\npRe3/3oB5bXhrT2+6qWXWrWKkjFekZqWt9Xw7KphaGcKKJqhq+8QB7kKAitaTO+q\nUvcS2g8iLBEH/jzZkvwYNlALzo+BNY/aDPTvnh0EOHOl04tYd7uvfHw7AoGBAJYJ\ny5XrWvcqMZwJARilbpUrCreIjIq2p3bFwXjyIT2lMDo4MEUc6Opg4O7pDdsvtJFT\niKbElzLFwdMJ4Zd3+aVUSHh+t3GM54IVQEwaOoxhi3MfK+/xcA+RAWAIQ5MSWEhp\nEOvgvnXmz2or3H9RzQrOVrFHNxaWLTik5K7UhAuvAoGAZpoNhs3sd78REu2EMFhn\nzKps46WmvzF0VDNHKnTjord08APSWgQSjT4RxxE4mpWD7LSFnjpaV2Ksp/P7+ivz\nRwJj+I+E2r7rUNfb5wVB9gyjuF4eKZImgaCczLWhxWCatxjvZ0sfEI5Y5Ny0lmO9\nmAiiMa4EGR455QBSds6AorE=\n-----END PRIVATE KEY-----\n",
+          "client_email": "firebase-adminsdk-e8t3j@sato-reviews.iam.gserviceaccount.com",
+          "client_id": "105175112838734602527",
+          "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+          "token_uri": "https://accounts.google.com/o/oauth2/token",
+          "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+          "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-e8t3j%40sato-reviews.iam.gserviceaccount.com"
+        },
+        "databaseURL": "https://sato-reviews.firebaseio.com",
+        "types": [
+          {
+            "type": "Events",
+            "path": "posts"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "sourceNodes"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews/node_modules/gatsby-source-firebase",
+      "packageJson": {
+        "name": "gatsby-source-firebase",
+        "description": "Gatsby plugin to turn Firebase into a Gatsby data source.",
+        "version": "1.0.0",
+        "main": "gatsby-node.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "firebase"
+        ],
+        "author": {
+          "name": "Ryan Florence",
+          "email": "rpflorence@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "firebase-admin",
+            "version": "^5.2.1"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "92b13f66ed3cdd9e3a83392820e088a7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/smorrissey/React/gatsby/sato-reviews",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "5aeb96fa5df3819e1c4b88d3f4f22d54",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "pluginFilepath": "/Users/smorrissey/React/gatsby/sato-reviews",
+      "packageJson": {
+        "name": "gatsby-starter-netlify-cms",
+        "description": "Example Gatsby, and Netlify CMS project",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Austin Green",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bulma",
+            "version": "^0.6.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.127"
+          },
+          {
+            "name": "gatsby-cli",
+            "version": "^1.1.25"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.21"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.13"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.12"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.18"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.18"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.5"
+          },
+          {
+            "name": "gatsby-source-firebase",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.17"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.13"
+          },
+          {
+            "name": "react-load-script",
+            "version": "0.0.6"
+          },
+          {
+            "name": "react-timestamp",
+            "version": "^4.3.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.7.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8d9dec4607379cbde19957feff04ece8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-04-22T17:17:30.092Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "399b1e247a3c955a0e9d2eee49f3009f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/smorrissey/React/gatsby/sato-reviews/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1524417455702,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/smorrissey/React/gatsby/sato-reviews/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a6835366ddef06fec4b702dc9ad25862",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/smorrissey/React/gatsby/sato-reviews/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "updatedAt": 1524417455703,
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/smorrissey/React/gatsby/sato-reviews/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a4f172caedbafa1a14f2f9504e538ac9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/smorrissey/React/gatsby/sato-reviews/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "updatedAt": 1524417455704,
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/smorrissey/React/gatsby/sato-reviews/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fe1b30d641dbc8d65b86b99d6f2fd8a2",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "4a4fbca91dfedc05f3a2ac3c66730636"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "Events": [
+        "/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
