@@ -8,6 +8,8 @@ function simpleTemplating(data) {
     return html;
 }
 
+
+
 function setPagination(ref){
   ref.on("value", function(snapshot) {
     $('#pagination-container').pagination({
