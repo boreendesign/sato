@@ -8,9 +8,7 @@ function simpleTemplating(data) {
     return html;
 }
 
-
-
-function setPagination(ref,numberPerPage){
+function setPagination(ref,numberPerPage,totalNumber){
   ref.on("value", function(snapshot) {
     $('#pagination-container').pagination({
         dataSource: snapshot.val().posts,
