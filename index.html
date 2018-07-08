@@ -3,7 +3,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
   <script src="https://cdn.rawgit.com/boreendesign/sato/master/src/pagination.js"></script>
-  <script src="https://cdn.rawgit.com/boreendesign/sato/master/src/sato-reviews.js"></script>
+  <script src="https://cdn.rawgit.com/boreendesign/sato/61ee0973e786edbc0315b76255ec58b630ca6279/src/sato-reviews.js"></script>
   <link href="https://cdn.rawgit.com/boreendesign/sato/master/src/pagination.css" rel="stylesheet" type="text/css">
 
   <script>
@@ -21,13 +21,18 @@
 </head>
 
 <body>
-  <div id="data-container"></div>
+  <div id="review-container"></div>
   <div id="pagination-container"></div>
 
   <script>
+  // This will call the pagination of the results returned from firebase
+  // Values to pass inspect
+  //  ref : Reference from firebase - do not change
+  //  numberPerPage : the number of reviews to show on one page (default is empty which is all)
+  //  amountToReturn : the total number of reviews to returne
+  //  pagination : whether you want to show pagination or not, default is true
 
-setPagination(ref);
-
+  setPagination(ref,5);
 
   </script>
 </body>
