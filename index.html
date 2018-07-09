@@ -3,11 +3,13 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
   <script src="https://cdn.rawgit.com/boreendesign/sato/master/src/pagination.js"></script>
+  <script src="https://cdn.rawgit.com/boreendesign/sato/master/src/rating.js"></script>  
   <script src="src/sato-reviews.js"></script>
-  <script type="https://cdn.rawgit.com/boreendesign/sato/master/src/rating.js" src="rating.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
 
   <link href="https://cdn.rawgit.com/boreendesign/sato/master/src/pagination.css" rel="stylesheet" type="text/css">
-  <link href="https://cdn.rawgit.com/boreendesign/sato/master/src/rating.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
   <script>
     var config = {
@@ -26,7 +28,7 @@
 <body>
   <div id="review-container"></div>
   <div id="pagination-container"></div>
-
+  <div class="rating" data-rate-value=6></div>
   <script>
   //FIREBASE INFORMATION : https://firebase.google.com/docs/database/web/read-and-write
   //PAGINATION PLUGIN INFORMATION : http://pagination.js.org/docs/index.html#totalNumber
@@ -38,7 +40,22 @@
   //  pagination : whether you want to show pagination or not, default is true (IN DEVELOPMENT)
 
   setPagination(ref,5);
+  //Make sure that the dom is ready
+  // Options
+  var options = {
+      max_value: 10,
+      step_size: 0.5,
+      initial_value: 0,
+      selected_symbol_type: 'utf8_star', // Must be a key from symbols
+      cursor: 'default',
+      readonly: false,
+      change_once: false, // Determines if the rating can only be set once
+      ajax_method: 'POST',
+      url: 'http://localhost/test.php',
+      additional_data: {} // Additional data to send to the server
+  }
 
+  $(".rating").rate(options);
   </script>
 </body>
 </html>

@@ -1,11 +1,15 @@
 function simpleTemplating(data) {
     var html = '<div class = "container">';
+    var review_counter = 0;
     $.each(data, function(index, item){
         html += '<div class="review"><div class = "review_name">'+ item.name +'</div>';
-        html += '<div class = "review_desc">'+ item.review +'</div></div>';
+        html += '<div class = "review_desc">'+ item.review +'</div>';
+        html += '<div class = "review_rating'+ review_counter + '"></div></div>';
+        review_counter++;
     });
     html += '</div>';
-    return html;
+    $('#review-container').html(html);
+    return review_counter;
 }
 
 function setPagination(ref,numberPerPage,totalNumber){
@@ -14,8 +18,8 @@ function setPagination(ref,numberPerPage,totalNumber){
         dataSource: snapshot.val().posts,
         pageSize:numberPerPage,
         callback: function(data, pagination) {
-            var html = simpleTemplating(data);
-            $('#review-container').html(html);
+            var review_counter = simpleTemplating(data);
+
         }
     })
      console.log(snapshot.val());
