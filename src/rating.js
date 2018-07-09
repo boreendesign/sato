@@ -2,6 +2,8 @@
  * A highly customizable rating widget that supports images, utf8 glyphs and other html elements!
  * https://github.com/auxiliary/rater
  */
+
+ 
 ;(function ($, window){
     $.fn.textWidth = function()
     {
